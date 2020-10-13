@@ -1,5 +1,6 @@
 package be.technifutur.java2020.starwars;
 import java.util.Scanner;
+
 public class Main{
 
 	public static void main(String... args){
