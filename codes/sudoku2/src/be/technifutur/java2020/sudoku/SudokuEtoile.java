@@ -1,5 +1,5 @@
 package be.technifutur.java2020.sudoku;
 
-	public class SudokuEtoile{
+	public class SudokuEtoile implements Sudoku{
 		
 	}

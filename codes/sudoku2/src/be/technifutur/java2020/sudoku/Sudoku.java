@@ -1,5 +1,6 @@
 package be.technifutur.java2020.sudoku;
 
-	public class Sudoku {
+	public interface Sudoku {
+		public abstract void afficheGrille;
 
 	}
