@@ -18,10 +18,10 @@ public class Vue9x9 {
     public void afficheGrille(){
         for(int cpt = 0; cpt < 9; cpt++) {
             for (int cpt2 = 0; cpt2 < 9; cpt2++) {
-                if (modele.grille[cpt][cpt2] == 0){
+                if (modele.getValue(cpt, cpt2) == 0){
                     System.out.print("*" + "\t");
                 }   else {
-                    System.out.print(modele.grille[cpt][cpt2] + "\t");
+                    System.out.print(modele.getValue(cpt, cpt2) + "\t");
                 }
                 if (cpt2 == 8) {
                     System.out.println("\n");

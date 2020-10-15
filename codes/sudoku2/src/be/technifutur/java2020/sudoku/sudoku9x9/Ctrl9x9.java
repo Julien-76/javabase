@@ -8,6 +8,7 @@ public class Ctrl9x9 {
 
     int l, c;
     char v;
+    boolean quit;
     String cmd;
     Vue9x9 ctVue;
     Modele9x9 ctModele;
@@ -19,6 +20,12 @@ public class Ctrl9x9 {
     public void setVue(Vue9x9 poire){
         this.ctVue = poire;
     }
+
+    public boolean testFin(){
+        quit = this.v == 'Q';
+        return quit;
+    }
+
 
     public void valeurs(){
         String scan;
@@ -44,8 +51,6 @@ public class Ctrl9x9 {
         Ctrl9x9 test = new Ctrl9x9();
         Vue9x9 ctrlVue = new Vue9x9();
         Modele9x9 ctrlMod = new Modele9x9();
-        System.out.println("Voici la grille vide :\n");
-        ctrlVue.afficheGrilleVide();
         test.valeurs();
         test.inVariables();
         while (test.v != 'Q') {
