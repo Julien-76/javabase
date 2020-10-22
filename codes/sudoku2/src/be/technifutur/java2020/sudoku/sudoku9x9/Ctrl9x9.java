@@ -14,10 +14,12 @@ public class Ctrl9x9 {
     Modele9x9 ctModele;
 
     public void setModele(Modele9x9 peche) {
+
         this.ctModele = peche;
     }
 
     public void setVue(Vue9x9 poire){
+
         this.ctVue = poire;
     }
 
